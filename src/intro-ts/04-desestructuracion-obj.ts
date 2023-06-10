@@ -40,3 +40,7 @@ const gps:string[]=['IDGS','IEVN','REDES']
 console.log(`grupo 1: ${gps[0]}`)
 console.log(`grupo 2: ${gps[1]}`)
 console.log(`grupo 3: ${gps[2]}`)
+
+const[a,,b]=gps
+console.log(`grupo 1: ${a}`)
+
